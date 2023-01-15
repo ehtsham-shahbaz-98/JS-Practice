@@ -47,10 +47,39 @@ function checkPalindrome(checkString) {
 
 let name = "Ehtsham";
 
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
-console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+// console.log(name.charAt(Math.floor(Math.random() * name.length)))
+
+// Rock, Papers, Scissors
+
+// Decision tree!
+
+let player;
+let computer;
+
+if (player === computer) {
+    // Its a tie
+} else if (player === "rock") {
+    if (computer === "paper") {
+        // computer wins
+    } else {
+        // player wins
+    }
+} else if (player === "paper") {
+    if (computer === "scissors") {
+        // computer wins
+    } else {
+        // player wins
+    }
+} else {
+    if (computer === "rock") {
+        // computer wins
+    } else {
+        // player wins
+    }
+}
