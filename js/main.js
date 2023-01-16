@@ -153,9 +153,21 @@
 // console.log('Min value ===> ', min);
 // console.log('Max value ===> ', max);
 
-let inputName = prompt("Please enter your name");
-if (inputName) {
-  console.log(inputName ?? "You did'nt enter your name.");
+// let inputName = prompt("Please enter your name");
+// if (inputName) {
+//   console.log(inputName ?? "You did'nt enter your name.");
+// } else {
+//   console.log("You didn't enter your name");
+// }
+
+// My first interactive game
+let playGame = confirm("Shall we play rock, paper, and scissors?");
+
+if (playGame) {
+    // play
+    let playerChoice = prompt();
 } else {
-  console.log("You didn't enter your name");
+    alert("Ok, maybe next time");
 }
+
+// commit 1
